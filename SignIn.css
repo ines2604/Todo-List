@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.SignUp,.login{
+    height: 100%;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 20px;
+}
+.login{
+    margin: 10px;
+}
+.SignUp .titre h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #5a09a5;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.login{
+    background: linear-gradient(90deg, #5a09a5, #9e0bba, #d90cd0);
+}
+.SignUp .titre hr{
+    background: linear-gradient(90deg, #5a09a5, #9e0bba, #d90cd0);
+    height: 4px;
+    width: 400px;
+    border-radius: 5px;
+}
+.login .titre h1{ 
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.login .titre hr{
+    background-color: white;
+    height: 4px;
+    width: 400px;
+    border-radius: 5px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs input{
+    margin: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #5a09a5;
+    font-size: 15px;
+}
+input::placeholder{
+    color: #666; /* Couleur grise plus foncée */
+    font-weight: bold; /* Texte en gras */
+    text-align:start; /* Alignement du texte au centre */
+    font-size: 15px;
+}
+
+.input-container {
+    position: relative;
+    
+}
+.input-field {
+    margin: 8px;
+    padding: 5px;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+.input-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 20px;
+}
+.input-button img {
+    width: 20px;
+    height: 20px;
+}
+.already,.createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.already p {
+    font-size: 14px; /* Taille de la police */
+    font-weight: bold;
+    color: #555; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    margin: 10px 0; /* Marge en haut et en bas */
+}
+
+.already a {
+    margin-left: 20px;
+    color: #5a09a5; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Texte en gras */
+}
+
+.already a:hover {
+    text-decoration: underline; /* Ajouter le soulignement au survol */
+}
+.button{
+    margin-top: 20px;
+    background-color: #5a09a5;
+    padding: 5px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.login .button{
+    background-color: white;
+    color: #5a09a5;
+}
+.login .inputs a{
+    margin-left: 280px;
+    color: white; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Texte en gras */
+    font-size: 15px;
+}
+.login .inputs a:hover {
+    text-decoration: underline; /* Ajouter le soulignement au survol */
+}
+.button:hover {
+    background-color: #1E90FF ; /* Couleur de fond au survol */
+}
+.OR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.or,.button{
+    margin-bottom: 30px;
+}
+.OR p{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin:0px;
+    padding: 1px;
+}
+.OR hr{
+    width: 200px;
+}
+.reseaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.reseaux button {
+    margin-left: 10px;
+    background-color: #5a09a5; /* Couleur de fond du bouton */
+    border: none; /* Enlever les bordures */
+    border-radius: 90%; /* Arrondir les coins pour un effet circulaire */
+    padding: 10px; /* Espacement intérieur pour agrandir la zone cliquable */
+    cursor: pointer; /* Changer le curseur au survol */
+    transition: transform 0.3s, box-shadow 0.3s; /* Ajouter des transitions pour les effets */
+}
+
+.reseaux button:hover {
+    transform: scale(1.1); /* Agrandir le bouton au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajouter une ombre au survol */
+}
+
+.reseaux img {
+    width: 30px; /* Largeur de l'image */
+    height: 30px; /* Hauteur de l'image */
+}
+.createaccount p {
+    font-size: 14px; /* Taille de la police */
+    font-weight: bold;
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    margin: 10px 0; /* Marge en haut et en bas */
+}
+
+.createaccount a {
+    margin-left: 20px;
+    color: white; /* Couleur du lien */
+    text-decoration: none; /* Supprimer le soulignement */
+    font-weight: bold; /* Texte en gras */
+}
+.createaccount a:hover {
+    text-decoration: underline; /* Ajouter le soulignement au survol */
+}
+.createaccount {
+    margin-top:20px;
+}
+.hidden{
+    display: none;
+}
